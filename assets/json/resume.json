@@ -29,7 +29,6 @@
       "studyType": "Ph.D.",
       "startDate": "2023-08",
       "endDate": "2026-11",
-      "score": "4.0/4.0",
       "courses": []
     },
     {
@@ -39,7 +38,6 @@
       "studyType": "M.S.",
       "startDate": "2021-08",
       "endDate": "2023-05",
-      "score": "4.0/4.0",
       "courses": []
     },
     {
@@ -49,7 +47,6 @@
       "studyType": "B.Eng.",
       "startDate": "2016-09",
       "endDate": "2020-06",
-      "score": "3.9/4.0",
       "courses": []
     }
   ],
@@ -101,28 +98,24 @@
     {
       "name": "Amazon",
       "position": "Applied Scientist Intern",
-      "location": "California, USA",
       "startDate": "2026-05",
       "endDate": "2026-08"
     },
     {
       "name": "Meta",
       "position": "Research Scientist Intern",
-      "location": "California, USA",
       "startDate": "2025-05",
       "endDate": "2025-08"
     },
     {
       "name": "Meta",
       "position": "Research Scientist Intern",
-      "location": "California, USA",
       "startDate": "2024-05",
       "endDate": "2024-11"
     },
     {
       "name": "ByteDance",
       "position": "Machine Learning Engineer Intern",
-      "location": "Beijing, China",
       "startDate": "2020-07",
       "endDate": "2021-06"
     }
