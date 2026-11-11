@@ -1,0 +1,102 @@
+.publications .bibliography,
+.publications li[id] {
+  scroll-margin-top: 6rem;
+}
+
+.publications h2.bibliography,
+.publications h3.bibliography {
+  border-top: 1px solid var(--global-divider-color);
+  color: var(--global-text-color);
+  font-size: 1.4rem;
+  margin: 2rem 0 1rem;
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.publication-nav {
+  line-height: 1.8;
+}
+
+.publications .abbr abbr {
+  color: #fff;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.publications .author details.more-authors,
+.publications .author details.more-authors summary {
+  display: inline;
+}
+
+.publications .author details.more-authors summary {
+  color: var(--global-text-color);
+  cursor: pointer;
+  list-style: none;
+}
+
+.publications .author details.more-authors summary > span {
+  color: inherit;
+}
+
+.publications .author .more-authors-link {
+  color: #828282;
+  border-bottom: 1px dashed currentColor;
+}
+
+html[data-theme="dark"] .publications .author .more-authors-link {
+  color: #a0a0a0;
+}
+
+.publications .author details.more-authors summary:hover .more-authors-link {
+  color: var(--global-text-color);
+}
+
+.publications .author details.more-authors summary::-webkit-details-marker {
+  display: none;
+}
+
+.publications .author details.more-authors summary::marker {
+  content: "";
+}
+
+.publications .author details.more-authors .additional-authors,
+.publications .author details.more-authors[open] .more-authors-label {
+  display: none;
+}
+
+.publications .author details.more-authors[open] .additional-authors {
+  display: inline;
+}
+
+.publications .links {
+  margin-top: 0.3rem;
+}
+
+.publications .links a {
+  margin-bottom: 0.3rem;
+}
+
+.selected-publications {
+  margin-top: 2rem;
+}
+
+.selected-publications-scroll {
+  max-height: 24rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+}
+
+.selected-publications ol.bibliography > li {
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 575.98px) {
+  .selected-publications-scroll {
+    max-height: 32rem;
+  }
+
+  .publications .abbr abbr {
+    max-width: 9rem;
+  }
+}

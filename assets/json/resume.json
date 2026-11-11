@@ -1,1 +1,130 @@
-{"basics":{"name":"Zhichen Zeng","image":"","email":"zhichenz@illinois.edu","phone":"(217) 953-1340","url":"https://zhichenz98.github.io/","location":{"address":"201 N. Goodwin Ave., Room 1119","postalCode":"61801","city":"Urbana","countryCode":"US","region":"Illinois"},"profiles":[{"network":"Twitter","username":"AlbertEinstein","url":"https://twitter.com/AlbertEinstein"}]},"volunteer":[],"education":[{"institution":"University of Illinois Urbana-Champaign","url":"https://cs.illinois.edu/","area":"Computer Science","studyType":"Ph.D.","startDate":"2023","endDate":"present","score":"","courses":[]},{"institution":"University of Illinois Urbana-Champaign","url":"https://cs.illinois.edu/","area":"Computer Science","studyType":"M.S.","startDate":"2021","endDate":"2023","score":"","courses":[]},{"institution":"Zhejiang University","url":"http://www.cse.zju.edu.cn/","area":"Control Science and Engineering","studyType":"B.Eng.","startDate":"2016","endDate":"2020","score":"","courses":[]}],"awards":[{"title":"Conference Presentation Award","date":"2023","awarder":"University of Illinois Urbana-Champaign"},{"title":"Outstanding Graduates","date":"2020","awarder":"Zhejiang University"},{"title":"Provincial Scholarship","date":"2018, 2019","awarder":"Zhejiang Province"},{"title":"Meritorious Winner of Mathematical Contest In Modelling","date":"2019","awarder":"Consortium for Mathematics and its Applications"}],"certificates":[],"publications":[],"skills":[],"languages":[],"interests":[],"references":[],"projects":[]}
+{
+  "basics": {
+    "name": "Zhichen Zeng",
+    "image": "",
+    "email": "zhichenz@illinois.edu",
+    "phone": "(217) 953-1340",
+    "url": "https://zhichenz98.github.io/",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "zhichenz98",
+        "url": "https://github.com/zhichenz98"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Zhichen Zeng",
+        "url": "https://scholar.google.com/citations?user=rFdX368AAAAJ&hl=en"
+      }
+    ],
+    "label": "Ph.D. in Computer Science",
+    "summary": "Ph.D. in Computer Science from the University of Illinois Urbana-Champaign, completed November 2026."
+  },
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "url": "https://cs.illinois.edu/",
+      "area": "Computer Science",
+      "studyType": "Ph.D.",
+      "startDate": "2023-08",
+      "endDate": "2026-11",
+      "score": "4.0/4.0",
+      "courses": []
+    },
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "url": "https://cs.illinois.edu/",
+      "area": "Computer Science",
+      "studyType": "M.S.",
+      "startDate": "2021-08",
+      "endDate": "2023-05",
+      "score": "4.0/4.0",
+      "courses": []
+    },
+    {
+      "institution": "Zhejiang University",
+      "url": "http://www.cse.zju.edu.cn/",
+      "area": "Automation",
+      "studyType": "B.Eng.",
+      "startDate": "2016-09",
+      "endDate": "2020-06",
+      "score": "3.9/4.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dissertation Completion Fellowship",
+      "date": "2026",
+      "awarder": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "title": "Outstanding Teaching Assistant Award",
+      "date": "2026",
+      "awarder": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "title": "Top Reviewer of NeurIPS 2023",
+      "date": "2023",
+      "awarder": "NeurIPS"
+    },
+    {
+      "title": "Conference Presentation Award",
+      "date": "2023",
+      "awarder": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "title": "Outstanding Graduates",
+      "date": "2020",
+      "awarder": "Zhejiang University"
+    },
+    {
+      "title": "Provincial Scholarship",
+      "date": "2018, 2019",
+      "awarder": "Zhejiang Province"
+    },
+    {
+      "title": "Meritorious Winner of Mathematical Contest In Modelling",
+      "date": "2019",
+      "awarder": "Consortium for Mathematics and its Applications (COMAP), USA"
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "work": [
+    {
+      "name": "Amazon",
+      "position": "Applied Scientist Intern",
+      "location": "California, USA",
+      "startDate": "2026-05",
+      "endDate": "2026-08"
+    },
+    {
+      "name": "Meta",
+      "position": "Research Scientist Intern",
+      "location": "California, USA",
+      "startDate": "2025-05",
+      "endDate": "2025-08"
+    },
+    {
+      "name": "Meta",
+      "position": "Research Scientist Intern",
+      "location": "California, USA",
+      "startDate": "2024-05",
+      "endDate": "2024-11"
+    },
+    {
+      "name": "ByteDance",
+      "position": "Machine Learning Engineer Intern",
+      "location": "Beijing, China",
+      "startDate": "2020-07",
+      "endDate": "2021-06"
+    }
+  ]
+}
