@@ -76,6 +76,35 @@ html[data-theme="dark"] .gallery-page {
   flex: 999 1 0;
 }
 
+@media (min-width: 1200px) {
+  #album-ca .gallery-grid {
+    --row-height: 11.5rem;
+  }
+
+  #album-co .gallery-grid {
+    --row-height: 12rem;
+  }
+
+  #album-sd-wy .gallery-grid,
+  #album-ut-az .gallery-grid {
+    --row-height: 11rem;
+  }
+
+  #album-vancouver .gallery-grid {
+    --row-height: 10.5rem;
+  }
+
+  #album-ak-hi .gallery-grid::after,
+  #album-ca .gallery-grid::after,
+  #album-co .gallery-grid::after,
+  #album-il .gallery-grid::after,
+  #album-sd-wy .gallery-grid::after,
+  #album-ut-az .gallery-grid::after,
+  #album-vancouver .gallery-grid::after {
+    display: none;
+  }
+}
+
 .gallery-card {
   flex: var(--ratio) 1 calc(var(--ratio) * var(--row-height));
   min-width: 0;
@@ -94,6 +123,7 @@ html[data-theme="dark"] .gallery-page {
 .gallery-photo img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
   transition: transform 220ms ease;
 }
