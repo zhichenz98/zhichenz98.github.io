@@ -77,30 +77,23 @@ html[data-theme="dark"] .gallery-page {
 }
 
 @media (min-width: 1200px) {
-  #album-ca .gallery-grid {
-    --row-height: 11.5rem;
+  #album-west-coast .gallery-grid {
+    --row-height: 12.5rem;
   }
 
-  #album-co .gallery-grid {
+  #album-american-west .gallery-grid {
     --row-height: 12rem;
   }
 
-  #album-sd-wy .gallery-grid,
-  #album-ut-az .gallery-grid {
+  #album-midwest .gallery-grid {
     --row-height: 11rem;
   }
 
-  #album-vancouver .gallery-grid {
-    --row-height: 10.5rem;
-  }
-
   #album-ak-hi .gallery-grid::after,
-  #album-ca .gallery-grid::after,
-  #album-co .gallery-grid::after,
-  #album-il .gallery-grid::after,
-  #album-sd-wy .gallery-grid::after,
-  #album-ut-az .gallery-grid::after,
-  #album-vancouver .gallery-grid::after {
+  #album-west-coast .gallery-grid::after,
+  #album-american-west .gallery-grid::after,
+  #album-midwest .gallery-grid::after,
+  #album-europe .gallery-grid::after {
     display: none;
   }
 }
@@ -110,6 +103,25 @@ html[data-theme="dark"] .gallery-page {
   min-width: 0;
   max-width: 100%;
   margin: 0;
+}
+
+.gallery-caption {
+  min-height: 2.9em;
+  margin: 0.5rem 0 0;
+  color: var(--gallery-muted);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+
+.gallery-caption time {
+  white-space: nowrap;
+}
+
+.gallery-caption span {
+  color: inherit;
 }
 
 .gallery-photo {
@@ -194,13 +206,26 @@ html[data-theme="dark"] .gallery-page {
 .lightbox-header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
   padding-bottom: 1rem;
+}
+
+#lightbox-caption {
+  min-width: 0;
+  margin: 0;
+  color: #d4d4d4;
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 
 .lightbox-tools {
   display: flex;
   align-items: center;
+  margin-left: auto;
+  flex: 0 0 auto;
 }
 
 .gallery-lightbox button {
@@ -290,6 +315,10 @@ html[data-theme="dark"] .gallery-page {
 
   .gallery-lightbox {
     padding: 1rem;
+  }
+
+  #lightbox-caption {
+    font-size: 0.78rem;
   }
 }
 

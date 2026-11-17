@@ -15,6 +15,7 @@
 
     const dialog = document.getElementById("gallery-lightbox");
     const title = document.getElementById("lightbox-title");
+    const caption = document.getElementById("lightbox-caption");
     const counter = document.getElementById("lightbox-counter");
     const image = document.getElementById("lightbox-image");
     const loading = document.getElementById("lightbox-loading");
@@ -36,7 +37,19 @@
       if (!location.hash.startsWith("#album-")) return albums[0];
       try {
         const id = decodeURIComponent(location.hash.slice(7));
-        return albums.find((album) => album.id === id) || albums[0];
+        const requested = albums.find((album) => album.id === id);
+        if (requested) return requested;
+        const legacyAlbums = {
+          ca: "west-coast",
+          vancouver: "west-coast",
+          co: "american-west",
+          "sd-wy": "american-west",
+          "ut-az": "american-west",
+          il: "midwest",
+          "eastern-us": "midwest",
+          prague: "europe",
+        };
+        return albums.find((album) => album.id === legacyAlbums[id]) || albums[0];
       } catch (error) {
         return albums[0];
       }
@@ -96,6 +109,7 @@
       image.src = thumbnail ? thumbnail.currentSrc || thumbnail.src : photo.href;
       image.alt = thumbnail ? thumbnail.alt : photo.dataset.title || "Photograph";
       title.textContent = photo.dataset.title || image.alt;
+      if (caption) caption.textContent = photo.dataset.caption || "";
       counter.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(photos.length).padStart(2, "0")}`;
       previous.disabled = next.disabled = photos.length < 2;
       setLoading(true);
